@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F0FFF0;
+    background-image: url('imagenes/Background.jpg');
+    background-size: cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Contenedor */
+
+.contenedor{
+    background-color: rgba(87, 81, 81, 0.9); /* Color gris con 70% de opacidad */
+}
+
+
+.logo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #f5f5f5;
+    font-size: 2.25rem;
+    text-shadow:
+    2px 2px 0px #000,
+    /* Sombra en la esquina inferior derecha */
+    -2px 2px 0px #000,
+    /* Sombra en la esquina inferior izquierda */
+    2px -2px 0px#000,
+    /* Sombra en la esquina superior derecha */
+    -2px -2px 0px #000;
+/* Sombra en la esquina superior izquierda */
+}
+
+.logo:hover{
+    color: #f5f5f5;
+}
+.imgLogo {
+    padding-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo {
+    font-size: 2.5rem;
+}
+
+/* Enlaces */
+.enlace {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+    font-size: 25px;
+    padding-bottom: 3px;
+    color: #e7dddd;
+    transition: transform 0.3s ease-in-out;
+
+    text-shadow:
+        1px 1px 0px #000,
+        /* Sombra en la esquina inferior derecha */
+        -1px 1px 0px #000,
+        /* Sombra en la esquina inferior izquierda */
+        1px -1px 0px#000,
+        /* Sombra en la esquina superior derecha */
+        -1px -1px 0px #000;
+    /* Sombra en la esquina superior izquierda */
+    
+}
+
+.enlace.E1:hover {
+    color: #f5f5f5;
+    outline: 2px dashed rgb(27, 27, 150);
+    transform: translate(3px, -3px)scale(1.1);
+    box-shadow:1px -1px 10px #cbcbcb;
+    border-radius: 10px;
+    background: #1C3B82;
+    text-shadow:
+    2px 2px 0px #000,
+    /* Sombra en la esquina inferior derecha */
+    -2px 2px 0px #000,
+    /* Sombra en la esquina inferior izquierda */
+    2px -2px 0px#000,
+    /* Sombra en la esquina superior derecha */
+    -2px -2px 0px #000;
+/* Sombra en la esquina superior izquierda */
+
+}
+.enlace.E2:hover {
+    background: #FFCC00;
+    outline: 2px dashed rgb(27, 27, 150);
+    transform: translate(3px, -3px)scale(1.1);
+    color: #f5f5f5;
+    box-shadow:1px -1px 10px #cbcbcb;
+    border-radius: 10px;
+    text-shadow:
+    2px 2px 0px #000,
+    /* Sombra en la esquina inferior derecha */
+    -2px 2px 0px #000,
+    /* Sombra en la esquina inferior izquierda */
+    2px -2px 0px#000,
+    /* Sombra en la esquina superior derecha */
+    -2px -2px 0px #000;
+/* Sombra en la esquina superior izquierda */
+}
+.enlace.E3:hover {
+    background: #8B0000;
+    outline: 2px dashed rgb(27, 27, 150);
+    transform: translate(3px, -3px)scale(1.1);
+    color: #f5f5f5;
+    box-shadow:1px -1px 10px #cbcbcb;
+    border-radius: 10px;
+    text-shadow:
+    2px 2px 0px #000,
+    /* Sombra en la esquina inferior derecha */
+    -2px 2px 0px #000,
+    /* Sombra en la esquina inferior izquierda */
+    2px -2px 0px#000,
+    /* Sombra en la esquina superior derecha */
+    -2px -2px 0px #000;
+/* Sombra en la esquina superior izquierda */
+}
+.enlace.E4:hover {
+    background: #006400;
+    outline: 2px dashed rgb(27, 27, 150);
+    transform: translate(3px, -3px)scale(1.1);
+    color: #f5f5f5;
+    box-shadow:1px -1px 10px #cbcbcb;
+    border-radius: 10px;
+    text-shadow:
+    2px 2px 0px #000,
+    /* Sombra en la esquina inferior derecha */
+    -2px 2px 0px #000,
+    /* Sombra en la esquina inferior izquierda */
+    2px -2px 0px#000,
+    /* Sombra en la esquina superior derecha */
+    -2px -2px 0px #000;
+/* Sombra en la esquina superior izquierda */
+}
+.enlace.E5:hover {
+    background: #A0522D;
+    outline: 2px dashed rgb(27, 27, 150);
+    transform: translate(3px, -3px)scale(1.1);
+    color: #f5f5f5;
+    box-shadow:1px -1px 10px #cbcbcb;
+    border-radius: 10px;
+    text-shadow:
+    2px 2px 0px #000,
+    /* Sombra en la esquina inferior derecha */
+    -2px 2px 0px #000,
+    /* Sombra en la esquina inferior izquierda */
+    2px -2px 0px#000,
+    /* Sombra en la esquina superior derecha */
+    -2px -2px 0px #000;
+/* Sombra en la esquina superior izquierda */
+}
+
+.BusBarra {
+    background:#FFF8DC;
+    outline: 1px solid #000;
+}
+
+.BusBoton {
+    outline: 1px solid #000;
+    background: #6756a4;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.BusBoton:hover {
+    background: #473b6f;
+    color: #fff;
+}
+
+/* Aside */
+
+.contenedor_Blog{
+    background-color: #201f1f;
+    color: #f5f5f5;
+}
+
+.Aside{
+    border-left: 1px solid #f5f5f5;
+}
+
+
+.ArchivoEnlace {
+    text-decoration: none;
+    color: #ce42e0;
+    letter-spacing: 2px;
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out; /* Transiciones para font-size y color */
+    position: relative; /* Necesario para posicionar el icono correctamente */
+}
+
+.ArchivoEnlace:hover {
+    font-size: 19px;
+    color: #dbb5e0;
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+.ArchivoEnlace:hover::after {
+    content: "→"; /* Flecha hacia la derecha */
+    position: absolute;
+left: -25px; /* Ajusta la distancia de la flecha al enlace */
+    top:-9px;
+    font-size: 25px; /* Tamaño de la flecha */
+    transition: right 0.3s ease, font-size 0.3s ease; /* Transiciones suaves para el movimiento y tamaño de la flecha */
+    color: #dbb5e0;
+}
+
+
+.redes-sociales{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales .icono{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+.redes-sociales .icono svg{
+    width: 40px;
+    height: 40px;
+}
+
+
+.redes-sociales .instagram{ 
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.redes-sociales .instagram:hover{
+    transform: translate(1px, -1px) scale(1.1);
+    box-shadow: -1px 1px 15px #cbcbcb;
+}
+
+.redes-sociales .Maps {
+ background: #1C3B82;
+}
+
+
+.redes-sociales .Maps:hover {
+    transform: translate(1px, -1px) scale(1.1);
+    box-shadow: -1px 1px 15px #cbcbcb;
+}
+
+
+
+footer h6{
+    color: #cbcbcb;
+}
